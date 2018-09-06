@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="styles/default.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/yh.css">
+	<link rel="stylesheet" href="styles/recruit.css">
+	<link rel="stylesheet" href="fonts/iconfont.css">
+	<script src="scripts/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div id="header-hide"></div>
+	
+	<div id="header-container">
+		<div id="nav-bar">
+			<div class="l-nav">
+				<div class="l-nav-img"><img src="images/logo.png" alt="logo"></div>
+			</div>
+			<div class="r-nav">
+				<div class="nav-menu-content">
+					<ul class="nav-menu">
+						<li class="nav-header-item">
+							<div class="header-item-detail"><a href="index.html">首页</a><span class="fixed-bottom"></span></div>
+						</li>
+						<li class="nav-header-item">
+							<div class="header-item-detail"><a href="service.html">服务</a><span class="fixed-bottom"></span></div>
+						</li>
+						<li class="nav-header-item">
+							<div class="header-item-detail"><a href="javascript:void(0)">产品接口</a><span class="fixed-bottom"></span></div>
+							
+						</li>
+						<li class="nav-header-item">
+							<div class="header-item-detail"><a href="javascript:void(0)">项目</a><span class="fixed-bottom"></span></div>
+						</li>
+						<li class="nav-header-item">
+							<div class="header-item-detail"><a href="about.html">关于凡路</a><span class="fixed-bottom"></span></div>
+						</li>
+					</ul>
+					<div class="nav-login"><a class="login-f"><i class="login-i icon iconfont icon-modaologin"></i><span>登录</span></a></div>
+				</div>
+			</div>
+			<div class="bottom-nav">
+				<ul class="header-detail-list" item-index="2">
+					<li class="header-detail-item"><a href="javascript:void(0)">智慧城市接口</a></li>
+					<li class="header-detail-item"><a href="javascript:void(0)">乡村旅游接口</a></li>
+					<li class="header-detail-item"><a href="javascript:void(0)">学宝系统接口</a></li>
+					<li class="header-detail-item"><a href="javascript:void(0)">积分宝接口</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+
+	<div id="scr-obj-container">
+		<div id="src-obj-bar">
+			<div class="load-card-slot">
+				<img src="images/load-card-slot.png" alt="">
+				<i class="icon iconfont icon-java"></i>
+				<i class="icon iconfont icon-web"></i>
+				<i class="icon iconfont icon-yingjianshebei"></i>
+				<i class="icon iconfont icon-xitong"></i>
+				<i class="icon iconfont icon-cehua"></i>
+				<i class="icon iconfont icon-youxi"></i>
+			</div>
+			<div class="bg-canvaszz"></div>
+  			<canvas id="bg-canvas"></canvas> 
+  			<audio controls="true" autoplay="autoplay" class="audio">
+        		<source src="styles/Music.mp3" type="audio/mp3"> 
+        		<source src="styles/Music.ogg" type="audio/ogg"> 
+        		<source src="styles/Music.aac" type="audio/mp4"> 
+    		</audio>
+    		<div class="center-logo">
+    			<img src="images/stars2.svg" alt="">
+    		</div>
+    		<div class="scr-circle">
+    			<img src="images/cycle.png">
+				<img src="images/cycle.png">
+				<img src="images/cycle.png">
+				<img src="images/cycle.png">
+				<img src="images/cycle.png">
+				<img src="images/cycle.png">
+				<img src="images/cycle.png">
+				<img src="images/cycle.png">
+				<img src="images/cycle.png">
+				<img src="images/cycle.png">
+				<img src="images/cycle.png">
+    		</div>
+
+			<div class="scr-center">
+				
+			</div>
+			
+
+			<ul class="recruiter-list">
+
+				<li class="recruiter-li">
+					<div class="recruiter-li-imgbar">
+						<svg class="recruite-li-svg"height="400" width="400">
+							<polyline points="140,200 70,200 40,250" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="140,205 80,205" style="fill:none;stroke:#00c1de;stroke-width:6" />
+							<polyline points="260,205 320,205 380,250" style="fill:none;stroke:#00c1de;stroke-width:5" />
+							<path class="path" d="M 140,195 L 80,195" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+
+							<text x="20" y="270" fill="#00c1de">JAVA</text>
+						</svg>
+						<img src="images/cycle.png">
+						<i class="icon iconfont icon-java"></i>
+					</div>
+					
+				</li>
+				<li class="recruiter-li">
+					<div class="recruiter-li-imgbar">
+						<svg class="recruite-li-svg"height="400" width="400">
+							<polyline points="260,200 330,200 360,250" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="260,205 320,205" style="fill:none;stroke:#00c1de;stroke-width:6" />
+							<polyline points="140,200 70,200 20,250" style="fill:none;stroke:#00c1de;stroke-width:5" />
+							<path class="path" d="M 260,195 L 320,195" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<text x="350" y="270" fill="#00c1de">WEB</text>
+						</svg>
+					<img src="images/cycle.png">
+						<i class="icon iconfont icon-web"></i>
+					</div>
+					
+				</li>
+				<li class="recruiter-li">
+					<div class="recruiter-li-imgbar">
+						<svg class="recruite-li-svg"height="400" width="400">
+							<polyline points="140,200 70,200 40,200" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="140,205 80,205" style="fill:none;stroke:#00c1de;stroke-width:6" />
+							<polyline points="260,205 320,205 380,205" style="fill:none;stroke:#00c1de;stroke-width:5" />
+							<path class="path" d="M 140,195 L 80,195" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+
+							<text x="0" y="205" fill="#00c1de">硬件</text>
+						</svg>
+					<img src="images/cycle.png">
+						<i class="icon iconfont icon-yingjianshebei"></i>
+					</div>
+					
+				</li>
+				<li class="recruiter-li">
+					<div class="recruiter-li-imgbar">
+						<svg class="recruite-li-svg"height="400" width="400">
+							<polyline points="260,200 330,200 360,200" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="260,205 320,205" style="fill:none;stroke:#00c1de;stroke-width:6" />
+							<polyline points="140,200 70,200 20,200" style="fill:none;stroke:#00c1de;stroke-width:5" />
+							<path class="path" d="M 260,195 L 320,195" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<text x="365" y="205" fill="#00c1de">系统</text>
+						</svg>
+					<img src="images/cycle.png">
+						<i class="icon iconfont icon-xitong"></i>
+					</div>
+					
+				</li>
+				<li class="recruiter-li">
+					<div class="recruiter-li-imgbar">
+						<svg class="recruite-li-svg"height="400" width="400">
+							<polyline points="140,200 70,200 40,150" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="140,205 80,205" style="fill:none;stroke:#00c1de;stroke-width:6" />
+							<polyline points="260,205 320,205 380,150" style="fill:none;stroke:#00c1de;stroke-width:5" />
+							<path class="path" d="M 140,195 L 80,195" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+
+							<text x="20" y="130" fill="#00c1de">策划</text>
+						</svg>
+					<img src="images/cycle.png">
+						<i class="icon iconfont icon-cehua"></i>
+					</div>
+					
+				</li>
+				<li class="recruiter-li">
+					<div class="recruiter-li-imgbar">
+						<svg class="recruite-li-svg"height="400" width="400">
+							<polyline points="260,200 330,200 360,150" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="260,205 320,205" style="fill:none;stroke:#00c1de;stroke-width:6" />
+							<polyline points="140,200 70,200 20,150" style="fill:none;stroke:#00c1de;stroke-width:5" />
+							<path class="path" d="M 260,195 L 320,195" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<text x="350" y="130" fill="#00c1de">游戏</text>
+						</svg>
+					<img src="images/cycle.png">
+						<i class="icon iconfont icon-youxi"></i>
+					</div>
+					
+				</li>
+			</ul>
+			
+
+			<ul class="recruiter-part-list">
+				<li class="recruiter-part-li">
+					<div class="recruiter-part-li-left">
+						<img src="images/recruiter-1.png" alt="">
+					</div>
+					<div class="recruiter-part-li-right">
+						<i class="jian icon iconfont icon-jian-icon"></i>
+						<i class="jie icon iconfont icon-jie"></i>
+						<svg class="recruiter-part-li-svg"height="500" width="500">
+							<polyline points="60,40 90,40 90,80" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="65,45 85,45 85,60" style="fill:none;stroke:#00c1de;stroke-width:5" />
+							<polyline points="25,40 25,85 65,85" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="30,65 30,80 55,80" style="fill:none;stroke:#00c1de;stroke-width:5" />
+							<path class="part-path1" d="M 20,28  L 20,90 L 95,90 L 95,28 L 20,28" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<polyline points="75,95 75,300" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="100,80 450,80" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="300,60 400,60" style="fill:none;stroke:#00c1de;stroke-width:10" />
+							<polyline points="250,70 350,70" style="fill:none;stroke:#00c1de;stroke-width:2" />
+							<polyline points="450,350 450,250" style="fill:none;stroke:#00c1de;stroke-width:2" />
+							<polyline points="350,350 250,350" style="fill:none;stroke:#00c1de;stroke-width:2" />
+							<polyline points="340,347 340,328" style="fill:none;stroke:#00c1de;stroke-width:6" />
+							<line x1="337" y1="322" x2="343" y2="322" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<path class="part-path1" d="M 330,347  L 330,310 L 450,310" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<text x="120" y="70" style="fill:#00c1de;font-size:30px">JAVA</text>
+						</svg>
+						<button class="recruiter-part-li-btn">
+							<a href="apply.php?depart_id=3">加入</a>
+						</button>
+						Java应用部门由凡路安卓应用开发部门发展而来，主要从事JavaWeb后台和移动端APP开发，部门经过多年的实践探索，总结出来了成熟的学习路线。学习内容包括Java基础(初期)、JavaEE、Android基础(中期)，后期主要依靠成员自主学习。成员从事技术方向主要有JavaWeb（后台开发）、Android应用开发、IOS应用开发。
+					</div>
+				</li>
+				<li class="recruiter-part-li">
+					<div class="recruiter-part-li-left">
+						<img src="images/recruiter-2.png" alt="">
+					</div>
+					<div class="recruiter-part-li-right">
+						<i class="jian icon iconfont icon-jian-icon"></i>
+						<i class="jie icon iconfont icon-jie"></i>
+						<svg class="recruiter-part-li-svg"height="500" width="500">
+							<polyline points="60,40 90,40 90,80" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="65,45 85,45 85,60" style="fill:none;stroke:#00c1de;stroke-width:5" />
+							<polyline points="25,40 25,85 65,85" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="30,65 30,80 55,80" style="fill:none;stroke:#00c1de;stroke-width:5" />
+							<path class="part-path1" d="M 20,28  L 20,90 L 95,90 L 95,28 L 20,28" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<polyline points="75,95 75,300" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="100,80 450,80" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="300,60 400,60" style="fill:none;stroke:#00c1de;stroke-width:10" />
+							<polyline points="250,70 350,70" style="fill:none;stroke:#00c1de;stroke-width:2" />
+							<polyline points="450,350 450,250" style="fill:none;stroke:#00c1de;stroke-width:2" />
+							<polyline points="350,350 250,350" style="fill:none;stroke:#00c1de;stroke-width:2" />
+							<polyline points="340,347 340,328" style="fill:none;stroke:#00c1de;stroke-width:6" />
+							<line x1="337" y1="322" x2="343" y2="322" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<path class="part-path1" d="M 330,347  L 330,310 L 450,310" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<text x="120" y="70" style="fill:#00c1de;font-size:30px">WEB</text>
+						</svg>
+						<button class="recruiter-part-li-btn">
+							<a href="apply.html?depart_id=2">加入</a>
+						</button>
+						当你看到一个漂亮的网站的时候，你是否有兴趣了解它是如何制作出来的？当你看到页面上五颜六色的绚烂效果，你是否会感叹动画的神奇之处？而Web就是这样一个可以给你视觉满足的平台。
+					</div>
+				</li>
+				<li class="recruiter-part-li">
+					<div class="recruiter-part-li-left">
+						<img src="images/recruiter-3.png" alt="">
+					</div>
+					<div class="recruiter-part-li-right">
+						<i class="jian icon iconfont icon-jian-icon"></i>
+						<i class="jie icon iconfont icon-jie"></i>
+						<svg class="recruiter-part-li-svg"height="500" width="500">
+							<polyline points="60,40 90,40 90,80" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="65,45 85,45 85,60" style="fill:none;stroke:#00c1de;stroke-width:5" />
+							<polyline points="25,40 25,85 65,85" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="30,65 30,80 55,80" style="fill:none;stroke:#00c1de;stroke-width:5" />
+							<path class="part-path1" d="M 20,28  L 20,90 L 95,90 L 95,28 L 20,28" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<polyline points="75,95 75,300" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="100,80 450,80" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="300,60 400,60" style="fill:none;stroke:#00c1de;stroke-width:10" />
+							<polyline points="250,70 350,70" style="fill:none;stroke:#00c1de;stroke-width:2" />
+							<polyline points="450,350 450,250" style="fill:none;stroke:#00c1de;stroke-width:2" />
+							<polyline points="350,350 250,350" style="fill:none;stroke:#00c1de;stroke-width:2" />
+							<polyline points="340,347 340,328" style="fill:none;stroke:#00c1de;stroke-width:6" />
+							<line x1="337" y1="322" x2="343" y2="322" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<path class="part-path1" d="M 330,347  L 330,310 L 450,310" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<text x="120" y="70" style="fill:#00c1de;font-size:30px">硬件</text>
+						</svg>
+						<button class="recruiter-part-li-btn">
+							<a href="apply.html?depart_id=1">加入</a>
+						</button>
+						部门的主要方向是单片机与嵌入式的学习，学科竞赛多是部门的一个特色，只要你有精力每年可以参加十多个竞赛。如果喜欢嵌入式，偏爱linux操作系统或者你对物联网、智能硬件有兴趣，喜欢自己动手做一些东西，那就来这里吧。
+					</div>
+				</li>
+				<li class="recruiter-part-li">
+					<div class="recruiter-part-li-left">
+						<img src="images/recruiter-4.png" alt="">
+					</div>
+					<div class="recruiter-part-li-right">
+						<i class="jian icon iconfont icon-jian-icon"></i>
+						<i class="jie icon iconfont icon-jie"></i>
+						<svg class="recruiter-part-li-svg"height="500" width="500">
+							<polyline points="60,40 90,40 90,80" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="65,45 85,45 85,60" style="fill:none;stroke:#00c1de;stroke-width:5" />
+							<polyline points="25,40 25,85 65,85" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="30,65 30,80 55,80" style="fill:none;stroke:#00c1de;stroke-width:5" />
+							<path class="part-path1" d="M 20,28  L 20,90 L 95,90 L 95,28 L 20,28" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<polyline points="75,95 75,300" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="100,80 450,80" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="300,60 400,60" style="fill:none;stroke:#00c1de;stroke-width:10" />
+							<polyline points="250,70 350,70" style="fill:none;stroke:#00c1de;stroke-width:2" />
+							<polyline points="450,350 450,250" style="fill:none;stroke:#00c1de;stroke-width:2" />
+							<polyline points="350,350 250,350" style="fill:none;stroke:#00c1de;stroke-width:2" />
+							<polyline points="340,347 340,328" style="fill:none;stroke:#00c1de;stroke-width:6" />
+							<line x1="337" y1="322" x2="343" y2="322" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<path class="part-path1" d="M 330,347  L 330,310 L 450,310" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<text x="120" y="70" style="fill:#00c1de;font-size:30px">系统</text>
+						</svg>
+						<button class="recruiter-part-li-btn">
+							<a href="apply.html?depart_id=0">加入</a>
+						</button>
+						此部门学习的是基于C++的Qt开发，主要开发GUI（图形用户界面）程序，也涉及一些非GUI程序，比如控制台工具和服务器等，现在又开始开发与Linux系统有关的程序。采用Qt进行程序的开发有优良的跨平台特性，也是系统编程部门的主要特色之一。
+					</div>
+				</li>
+				<li class="recruiter-part-li">
+					<div class="recruiter-part-li-left">
+						<img src="images/recruiter-5.png" alt="">
+					</div>
+					<div class="recruiter-part-li-right">
+						<i class="jian icon iconfont icon-jian-icon"></i>
+						<i class="jie icon iconfont icon-jie"></i>
+						<svg class="recruiter-part-li-svg"height="500" width="500">
+							<polyline points="60,40 90,40 90,80" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="65,45 85,45 85,60" style="fill:none;stroke:#00c1de;stroke-width:5" />
+							<polyline points="25,40 25,85 65,85" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="30,65 30,80 55,80" style="fill:none;stroke:#00c1de;stroke-width:5" />
+							<path class="part-path1" d="M 20,28  L 20,90 L 95,90 L 95,28 L 20,28" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<polyline points="75,95 75,300" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="100,80 450,80" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="300,60 400,60" style="fill:none;stroke:#00c1de;stroke-width:10" />
+							<polyline points="250,70 350,70" style="fill:none;stroke:#00c1de;stroke-width:2" />
+							<polyline points="450,350 450,250" style="fill:none;stroke:#00c1de;stroke-width:2" />
+							<polyline points="350,350 250,350" style="fill:none;stroke:#00c1de;stroke-width:2" />
+							<polyline points="340,347 340,328" style="fill:none;stroke:#00c1de;stroke-width:6" />
+							<line x1="337" y1="322" x2="343" y2="322" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<path class="part-path1" d="M 330,347  L 330,310 L 450,310" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<text x="120" y="70" style="fill:#00c1de;font-size:30px">策划</text>
+						</svg>
+						<button class="recruiter-part-li-btn">
+							<a href="apply.html?depart_id=4">加入</a>
+						</button>
+						策划部是我们实验室一个新兴的部门，致力于培养产品经理，面向全校招生，只要你对策划感兴趣或者你想提升自己这方面的能力，那么这里就是你的不二之选，策划部欢迎你的加入！
+					</div>
+				</li>
+				<li class="recruiter-part-li">
+					<div class="recruiter-part-li-left">
+						<img src="images/recruiter-6.png" alt="">
+					</div>
+					<div class="recruiter-part-li-right">
+						<i class="jian icon iconfont icon-jian-icon"></i>
+						<i class="jie icon iconfont icon-jie"></i>
+						<svg class="recruiter-part-li-svg"height="500" width="500">
+							<polyline points="60,40 90,40 90,80" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="65,45 85,45 85,60" style="fill:none;stroke:#00c1de;stroke-width:5" />
+							<polyline points="25,40 25,85 65,85" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="30,65 30,80 55,80" style="fill:none;stroke:#00c1de;stroke-width:5" />
+							<path class="part-path1" d="M 20,28  L 20,90 L 95,90 L 95,28 L 20,28" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<polyline points="75,95 75,300" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="100,80 450,80" style="fill:none;stroke:#00c1de;stroke-width:3" />
+							<polyline points="300,60 400,60" style="fill:none;stroke:#00c1de;stroke-width:10" />
+							<polyline points="250,70 350,70" style="fill:none;stroke:#00c1de;stroke-width:2" />
+							<polyline points="450,350 450,250" style="fill:none;stroke:#00c1de;stroke-width:2" />
+							<polyline points="350,350 250,350" style="fill:none;stroke:#00c1de;stroke-width:2" />
+							<polyline points="340,347 340,328" style="fill:none;stroke:#00c1de;stroke-width:6" />
+							<line x1="337" y1="322" x2="343" y2="322" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<path class="part-path1" d="M 330,347  L 330,310 L 450,310" style="fill:none;stroke:#00c1de;stroke-width:2"/>
+							<text x="120" y="70" style="fill:#00c1de;font-size:30px">游戏</text>
+						</svg>
+						<button class="recruiter-part-li-btn">
+							<a href="apply.html?depart_id=5">加入</a>
+						</button>
+						它是一个具有新生力的部门，如同初升的太阳，冉冉升起，具有活力。这里有埋头苦干，积极进取但不失生活乐趣的程序人员；这里有脑洞大开，想像丰富但符合逻辑的游戏策划；这里有美术一流，画面带感但仍不断升华的美工大神，我们想做艺术性的游戏，想做尊重玩家的游戏，更想做自己梦想中最向往的游戏！如果你也是，那么我们志同道合。
+					</div>
+				</li>
+			</ul>
+
+		</div>
+	</div>
+
+	<div id="footer-filter-container">
+		<div id="footer-filter-bar">
+			<div class="footer-filter-header">
+				<ul class="footer-filter-header-list">
+					<li class="fofilter-header-list-item"><i class="icon iconfont icon-gaoxiaofuwu"></i>高效率</li>
+					<li class="fofilter-header-list-item"><i class="icon iconfont icon-qianyan"></i>最前沿</li>
+					<li class="fofilter-header-list-item"><i class="icon iconfont icon-quanmian"></i>全方面</li>
+					<li class="fofilter-header-list-item"><i class="icon iconfont icon-fuwu"></i>高服务</li>
+					<li class="fofilter-header-list-item"><i class="icon iconfont icon-jiage"></i>低价格</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div id="footer-container">
+		<div id="footer-bar">
+			<div class="footer-up">
+				<div class="footer-up-l"><img src="images/logo.png" alt="logo"></div>
+				<div class="footer-up-r">
+					<a href="javascript:void(0)">友情链接：</a>
+					<a href="javascript:void(0)">长沙理工大学</a>
+					<a href="javascript:void(0)">长沙理工大学计通学院</a>
+					<a href="javascript:void(0)">大学生科技交流平台</a>
+					<a href="javascript:void(0)">长沙理工大学创业园</a>
+				</div>
+			</div>
+			<div class="footer-bot">
+				<div class="footer-bot-l">
+					<img src="images/link1.jpg" alt="link1"><img src="images/link2.jpg" alt="link2">
+				</div>
+				<div class="footer-bot-r">
+					<p>Copyright©2016 凡路团队 版权所有 </p>
+					<p>地址：湖南省长沙市雨花区万家丽南路2段960号</p>
+				</div>
+			</div>
+		</div>
+	</div>
+    <script src="scripts/recruit.js"></script>
+</body>
+</html>

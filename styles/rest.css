@@ -1,0 +1,29 @@
+#garcol-container, #rest-container #eco-container{
+	width:100%;
+}
+#garcol-bar, #rest-bar,#eco-bar{
+	width:1000px;
+	padding-top:50px;
+	padding-bottom:30px;
+	position: relative;
+	margin:0 auto;
+} 
+
+#garcol-bar .garcol-header, #rest-bar .rest-header,#eco-container .eco-header{
+	margin-bottom: 30px;
+}
+
+#garcol-bar .garcol-header h2,#rest-bar .rest-header h2,#eco-bar .eco-header h2
+{
+	font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+#rest-bar .rest-header p, #rest-bar .rest-header p,  #eco-bar .eco-header p{
+	font-size: 18px;
+    line-height: 1.5em;
+}
+
+#garcol-bar .garcol-body, #rest-bar .rest-body, #eco-bar .eco-body{
+	height:400px;
+}

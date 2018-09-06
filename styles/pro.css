@@ -1,0 +1,29 @@
+#eco-container， #ljz-container{
+	width:100%;
+}
+#eco-bar,#ljz-bar{
+	width:1000px;
+	padding-top:50px;
+	padding-bottom:30px;
+	position: relative;
+	margin:0 auto;
+} 
+
+#eco-container .eco-header,#ljz-container .ljz-header{
+	margin-bottom: 30px;
+}
+
+#eco-bar .eco-header h2,#ljz-bar .ljz-header h2
+{
+	font-size: 30px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+#eco-bar .eco-header p,#ljz-bar .ljz-header p{
+	font-size: 18px;
+    line-height: 1.5em;
+}
+
+#eco-bar .eco-body,#ljz-bar .ljz-body{
+	height:400px;
+}

@@ -1,0 +1,27 @@
+.discuss-response-img{
+	padding:10px 20px;
+	text-align:center;
+	vertical-align: middle;
+	background-color:#fff;
+	border:1px solid #eee;
+}
+.discuss-response-img .iconfont1{
+	font-size:35px;
+}
+.icontextBar{
+	line-height:35px;
+}
+.discuss-response-img.success .iconfont1{
+	color:#5cb85c;
+}
+.discuss-response-img.error .iconfont1{
+	color:red;
+}
+.discuss-response-img.linkerror .iconfont1{
+	color:#f0ad4e;
+}
+.discuss-response-img .icon-text{
+	font-size:14px;
+	color:#333;
+	margin-left:10px;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>关于凡路</title>
+	<link rel="icon" href="images/l_logo.png"  />
+	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="styles/default.css">
+	<link rel="stylesheet" href="styles/main.css">
+	<link rel="stylesheet" href="styles/about.css">
+	<link rel="stylesheet" href="styles/yh.css">
+	<link rel="stylesheet" href="fonts/iconfont.css">
+	<script src="scripts/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body style="overflow: auto;">
+	<div id="header-hide"></div>
+	<div id="header-container">
+		<div id="nav-bar">
+			<div class="l-nav">
+				<div class="l-nav-img"><img src="images/logo.png" alt="logo" style="vertical-align: top;"></div>
+			</div>
+			<div class="r-nav"></div>
+		</div>
+	</div>
+	<div id="about-carousel-container">
+		<div id="about-carousel-bar">
+			<div id="about-carousel-content">
+				<h1>平凡世界，超凡科技--这便是凡路</h1>
+				<p>速报：凡路即将开展模拟面试活动，让你提前体验大三实习面试，敬请期待</p>
+				<div class="car-content-footer">
+					<a href="recruit.html"><button class="left-info-btn">加入我们</button></a>
+				</div>
+			</div>
+			<div class="threeD">
+				<div id="canvas" class="gradient"></div>
+			</div>
+		</div>
+		<div id="wrap-container">
+			<div id="wrap-bar">
+				<ul class="wrap-list">
+					<li class="wrap-list-item" data-wrap="#leader-container">
+						<p>团队领导者</p>
+					</li>
+					<li class="wrap-list-item" data-wrap="#award-container">
+						<p>奖项列表</p>
+					</li>
+					<li class="wrap-list-item" data-wrap="#our-container">
+						<p>我们聚集地</p>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="leader-container">
+		<div id="leader-bar">
+			<div class="leader-header">
+				<span class="line"></span>
+				<h2>团队领导者</h2>
+			</div>
+			<div class="leader-body">
+				<ul class="leader-ul">
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="award-container">
+		<div id="award-bar">
+			<div class="award-header">
+				<span class="line"></span>
+				<h2>奖项列表</h2>
+			</div>
+			<div class="award-body">
+				<div class="img-bg"></div>
+				<ul class="award-ul">
+				</ul>
+			</div>
+		</div>
+		<a href="javascript:;" class="arrow" id = "prev">&lt;</a>
+		<a href = "javascript:;" class="arrow" id = "next">&gt;</a>
+	</div>
+	<!-- 模态框（Modal） -->
+	<div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="">
+				<div class="modal-body" id="modelbody">
+					项目内容
+				</div>
+			</div><!-- /.modal-content -->
+		</div><!-- /.modal -->
+	</div>
+	<div id="our-container">
+		<div id="our-bar" style="width: 100%;">
+
+			<div class="our-header" style="width: 1000px;margin: 0 auto;">
+				<span class="line" style="top: 8px;"></span>
+				<span style="width:300px;background: none;"><h2 style="color: #fff;">我们聚集地</h2></span>
+			</div>
+			<div class="our-body">
+				<div id="iframe-wrap">
+					<iframe style="height: 620px;margin-top: -130px;" id="iframe" src="test.html" frameborder="0"  width="100%"></iframe>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer-filter-container">
+		<div id="footer-filter-bar">
+			<div class="footer-filter-header">
+				<ul class="footer-filter-header-list">
+					<li class="fofilter-header-list-item"><i class="icon iconfont icon-chuangxin"></i>创新</li>
+					<li class="fofilter-header-list-item"><i class="icon iconfont icon-guifan"></i>规范</li>
+					<li class="fofilter-header-list-item"><i class="icon iconfont icon-wenhuachuancheng"></i>传承</li>
+					<li class="fofilter-header-list-item"><i class="icon iconfont icon-fuwu"></i>感恩</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<div id="footer-container">
+		<div id="footer-bar">
+		</div>
+	</div>
+	<script type="text/javascript" src="./scripts/common.js"></script>
+	<script src="scripts/about.js" type="text/javascript" charset="utf-8"></script>
+	<script src="scripts/three.min.js"></script>
+	<script src="scripts/projector.js"></script>
+	<script src="scripts/canvas-renderer.js"></script>
+	<script src="scripts/color.js"></script>
+	<script src="scripts/3d-lines-animation.js"></script>
+</body>
+</html>
